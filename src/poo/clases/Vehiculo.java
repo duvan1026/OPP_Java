@@ -1,5 +1,8 @@
 package poo.clases;
 
+/**
+ * Clase base o superclase o clase padre
+ */
 public class Vehiculo {
 
     // 1. atributos

@@ -1,4 +1,9 @@
 package poo.herencia;
 
-public class Coche {
+import poo.clases.Vehiculo;
+
+public class Coche extends Vehiculo {
+
+    int numPuertas;
+
 }
