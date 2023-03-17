@@ -3,7 +3,7 @@ package poo.clases;
 public class Vehiculo {
 
     // 1. atributos
-    String fabricantes;
+    String fabricante;
     String modelo;
     double cc;
     int year;
@@ -17,7 +17,7 @@ public class Vehiculo {
     }
 
     public Vehiculo(String fabricante, String modelo, double cc, int year, boolean sport) {
-        this.fabricantes = fabricante;
+        this.fabricante = fabricante;
         this.modelo = modelo;
         this.cc = cc;
         this.year = year;
@@ -25,13 +25,13 @@ public class Vehiculo {
         this.speed = 0;
     }
 
-    public Vehiculo(String fabricantes, String modelo) {
-        this.fabricantes = fabricantes;
+    public Vehiculo(String fabricante, String modelo) {
+        this.fabricante = fabricante;
         this.modelo = modelo;
     }
 
-    public Vehiculo(String fabricantes, int year) {
-        this.fabricantes = fabricantes;
+    public Vehiculo(String fabricante, int year) {
+        this.fabricante = fabricante;
         this.year = year;
     }
 
