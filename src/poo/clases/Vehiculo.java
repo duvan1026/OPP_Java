@@ -17,13 +17,14 @@ public class Vehiculo {
 
     }
 
-    public Vehiculo(String fabricante, String modeloVehiculo, double cc, int year, boolean sport) {
+    public Vehiculo(String fabricante, String modeloVehiculo, double cc, int year, boolean sport, int speed, Motor motor) {
         this.fabricante = fabricante;
         this.modeloVehiculo = modeloVehiculo;
         this.cc = cc;
         this.year = year;
         this.sport = sport;
-        this.speed = 0;
+        this.speed = speed;
+        this.motor = motor;
     }
 
     public Vehiculo(String fabricante, String modeloVehiculo) {
