@@ -4,11 +4,12 @@ public class Vehiculo {
 
     // 1. atributos
     String fabricante;
-    String modelo;
+    String modeloVehiculo;
     double cc;
     int year;
     boolean sport;
     int speed;
+    Motor motor;
 
 
     // 2. Constructores
@@ -16,18 +17,18 @@ public class Vehiculo {
 
     }
 
-    public Vehiculo(String fabricante, String modelo, double cc, int year, boolean sport) {
+    public Vehiculo(String fabricante, String modeloVehiculo, double cc, int year, boolean sport) {
         this.fabricante = fabricante;
-        this.modelo = modelo;
+        this.modeloVehiculo = modeloVehiculo;
         this.cc = cc;
         this.year = year;
         this.sport = sport;
         this.speed = 0;
     }
 
-    public Vehiculo(String fabricante, String modelo) {
+    public Vehiculo(String fabricante, String modeloVehiculo) {
         this.fabricante = fabricante;
-        this.modelo = modelo;
+        this.modeloVehiculo = modeloVehiculo;
     }
 
     public Vehiculo(String fabricante, int year) {
@@ -41,6 +42,7 @@ public class Vehiculo {
     }
 
     // getter y setter
+
 
 
     //tostring
