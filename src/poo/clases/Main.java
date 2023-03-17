@@ -40,5 +40,7 @@ public class Main {
         vehiculo = new Camion();
         vehiculo.acelerar(50);
 
+        // 4. Clases abstractas: no se pueden instanciar, solo se instancian las clases hijas.
+
     }
 }

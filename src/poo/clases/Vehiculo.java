@@ -3,7 +3,7 @@ package poo.clases;
 /**
  * Clase base o superclase o clase padre
  */
-public class Vehiculo {
+public  class Vehiculo {
 
     // 1. atributos
     protected String fabricante;
