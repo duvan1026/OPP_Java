@@ -1,5 +1,7 @@
 package poo.clases;
 
+import poo.herencia.Camion;
+import poo.herencia.Coche;
 import poo.herencia.Motocicleta;
 
 public class Main {
@@ -8,7 +10,7 @@ public class Main {
 
 
 
-        // Clases y objetos
+        // 1. Clases y objetos
         // crear un objeto utilizando el contructor con parámetros
         Motor motorGTI = new Motor("GTI",190,459.0,6);
 
@@ -20,12 +22,23 @@ public class Main {
         forMondeo.acelerar(50);
         System.out.println(forMondeo.speed);
 
-        //Herencia
+        // 2. Herencia
         Motocicleta kawasakiNinja = new Motocicleta();
         kawasakiNinja.fabricante = "Kawasaki";
 
         System.out.println("fin de programa");
 
-        //Polimorfismo
+        // 3. Polimorfismo
+        Vehiculo vehiculo;
+
+        vehiculo = new Motocicleta();
+        vehiculo.acelerar(50);
+
+        vehiculo = new Coche();
+        vehiculo.acelerar(50);
+
+        vehiculo = new Camion();
+        vehiculo.acelerar(50);
+
     }
 }
