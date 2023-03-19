@@ -1,11 +1,11 @@
-package poo.interfaces;
+package poo.sininterfaces;
 
 import java.util.List;
 
 public class Main {
     public static void main(String[] args){
 
-        EmpleadoCRUDV1 empleadoCRUD = new EmpleadoCRUDV1();
+        EmpleadoCRUDV2 empleadoCRUDV2 = new EmpleadoCRUDV2();
 
 
         Empleado juanito = new Empleado("Juanito", 30, 40000, true);
@@ -15,16 +15,13 @@ public class Main {
         System.out.println(juanito);
 
         // guardar empleados
-        empleadoCRUDV2.save(juanito);
-        empleadoCRUD.save(patrica);
-        empleadoCRUD.save(roberto);
+//        empleadoCRUDV2.save(juanito);
+//        empleadoCRUDV2.save(patrica);
+//        empleadoCRUDV2.save(roberto);
 
         // Consultar empleados
-        List<Empleado> empleados = empleadoCRUD.findAll();
+        List<Empleado> empleados = empleadoCRUDV2.recuperarEmpleados();
         System.out.println(empleados);
-
-
-
 
     }
 

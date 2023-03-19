@@ -1,4 +1,4 @@
-package poo.interfaces;
+package poo.sininterfaces;
 
 public class Empleado {
 
