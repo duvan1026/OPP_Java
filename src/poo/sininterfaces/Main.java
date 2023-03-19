@@ -15,7 +15,7 @@ public class Main {
         System.out.println(juanito);
 
         // guardar empleados
-        empleadoCRUD.save(juanito);
+        empleadoCRUDV2.save(juanito);
         empleadoCRUD.save(patrica);
         empleadoCRUD.save(roberto);
 
