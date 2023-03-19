@@ -1,4 +1,24 @@
 package poo.coninterfaces;
 
-public class EmpleadoCRUDMySQL {
+import poo.sininterfaces.Empleado;
+
+import java.util.List;
+
+public class EmpleadoCRUDMySQL implements EmpleadoCRUD{
+
+
+    @Override
+    public void save(Empleado empleado) {
+
+    }
+
+    @Override
+    public List<Empleado> finAll() {
+        return null;
+    }
+
+    @Override
+    public void delete(Empleado empleado) {
+
+    }
 }
