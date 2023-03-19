@@ -3,7 +3,7 @@ package poo.interfaces;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmpleadoCRUDMySQL {
+public class EmpleadoCRUDV2 {
 
     public List<Empleado> recuperarEmpleados(){
 

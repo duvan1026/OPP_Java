@@ -9,7 +9,7 @@ import java.util.List;
  * Update
  * Delete
  */
-public class EmpleadoCRUD {
+public class EmpleadoCRUDV1 {
 
     // estructura de datos
     private List<Empleado> empleados = new ArrayList<>();

@@ -5,7 +5,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args){
 
-        EmpleadoCRUD empleadoCRUD = new EmpleadoCRUD();
+        EmpleadoCRUDV1 empleadoCRUD = new EmpleadoCRUDV1();
 
 
         Empleado juanito = new Empleado("Juanito", 30, 40000, true);
