@@ -20,6 +20,15 @@ public class Empleado {
         this.alta = alta;
     }
 
-
     // 3. Metodos
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", salario=" + salario +
+                ", alta=" + alta +
+                '}';
+    }
 }
+
