@@ -4,7 +4,7 @@ import poo.sininterfaces.Empleado;
 
 import java.util.List;
 
-public class EmpleadoCRUDMySQL implements EmpleadoCRUD{
+public class EmpleadoCRUDMySQL implements EmpleadoCRUD, EmpleadoReader{
 
 
     @Override
